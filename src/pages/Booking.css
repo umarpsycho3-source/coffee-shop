@@ -1,0 +1,49 @@
+.booking-page {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.booking-form-wrapper {
+  width: 100%;
+  max-width: 600px;
+  padding: 40px;
+}
+
+.booking-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.booking-header h1 {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.booking-header p {
+  color: var(--text-muted);
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-row .form-group {
+  flex: 1;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.success-message {
+  text-align: center;
+  padding: 40px 20px;
+  background: rgba(46, 204, 113, 0.1);
+  border: 1px solid var(--success);
+  border-radius: var(--radius-md);
+  color: var(--success);
+}

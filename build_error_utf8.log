@@ -1,0 +1,85 @@
+﻿
+> coffee-shop@0.0.0 build
+> vite build
+
+[36mvite v8.0.10 [32mbuilding client environment for production...[36m[39m
+[2K
+transforming...Γ£ô 1751 modules transformed.
+rendering chunks...
+node.exe : [31mΓ£ù[39m Build failed in 1.24s
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([31mΓ£ù[39m Build failed in 1.24s:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[31merror during build:
+[31mBuild failed with 3 errors:
+
+[31m[MISSING_EXPORT] Error:[0m "Instagram" is not exported by "node_modules/lucide-react/dist/esm/lucide-react.mjs".
+   [38;5;246mΓò¡[0m[38;5;246mΓöÇ[0m[38;5;246m[[0m src/components/Footer.jsx:2:18 [38;5;246m][0m
+   [38;5;246mΓöé[0m
+ [38;5;246m2 Γöé[0m 
+[38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m 
+[0m[38;5;249m{[0m[38;5;249m [0m[38;5;249mC[0m[38;5;249mo[0m[38;5;249mf[0m[38;5;249mf[0m[38;5;249me[0m[3
+8;5;249me[0m[38;5;249m,[0m[38;5;249m [0mInstagram[38;5;249m,[0m[38;5;249m [0m[38;5;249mT[0m[38;5;249mw[0m
+[38;5;249mi[0m[38;5;249mt[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249m,[0m[38;5;249m [0m[38;5;2
+49mF[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249me[0m[38;5;249mb[0m[38;5;249mo[0m[38;5;249mo[0m[38;5;249mk[0
+m[38;5;249m [0m[38;5;249m}[0m[38;5;249m 
+[0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m[38;5;249m"[0m[38;5;249ml[0m[3
+8;5;249mu[0m[38;5;249mc[0m[38;5;249mi[0m[38;5;249md[0m[38;5;249me[0m[38;5;249m-[0m[38;5;249mr[0m[38;5;249
+me[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249m"[0m[38;5;249m;[0m
+ [38;5;240m  Γöé[0m                  ΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇΓöÇ  
+ [38;5;240m  Γöé[0m                      Γò░ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ Missing export
+[38;5;246mΓöÇΓöÇΓöÇΓò»[0m
+
+[31m[MISSING_EXPORT] Error:[0m "Twitter" is not exported by "node_modules/lucide-react/dist/esm/lucide-react.mjs".
+   [38;5;246mΓò¡[0m[38;5;246mΓöÇ[0m[38;5;246m[[0m src/components/Footer.jsx:2:29 [38;5;246m][0m
+   [38;5;246mΓöé[0m
+ [38;5;246m2 Γöé[0m 
+[38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m 
+[0m[38;5;249m{[0m[38;5;249m [0m[38;5;249mC[0m[38;5;249mo[0m[38;5;249mf[0m[38;5;249mf[0m[38;5;249me[0m[3
+8;5;249me[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mI[0m[38;5;249mn[0m[38;5;249ms[0m[38;5;249mt[0m[38;5;249
+ma[0m[38;5;249mg[0m[38;5;249mr[0m[38;5;249ma[0m[38;5;249mm[0m[38;5;249m,[0m[38;5;249m 
+[0mTwitter[38;5;249m,[0m[38;5;249m [0m[38;5;249mF[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249me[0m[38;5;249mb
+[0m[38;5;249mo[0m[38;5;249mo[0m[38;5;249mk[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m 
+[0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m[38;5;249m"[0m[38;5;249ml[0m[3
+8;5;249mu[0m[38;5;249mc[0m[38;5;249mi[0m[38;5;249md[0m[38;5;249me[0m[38;5;249m-[0m[38;5;249mr[0m[38;5;249
+me[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249m"[0m[38;5;249m;[0m
+ [38;5;240m  Γöé[0m                             ΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇ  
+ [38;5;240m  Γöé[0m                                Γò░ΓöÇΓöÇΓöÇΓöÇΓöÇ Missing export
+[38;5;246mΓöÇΓöÇΓöÇΓò»[0m
+
+[31m[MISSING_EXPORT] Error:[0m "Facebook" is not exported by "node_modules/lucide-react/dist/esm/lucide-react.mjs".
+   [38;5;246mΓò¡[0m[38;5;246mΓöÇ[0m[38;5;246m[[0m src/components/Footer.jsx:2:38 [38;5;246m][0m
+   [38;5;246mΓöé[0m
+ [38;5;246m2 Γöé[0m 
+[38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m 
+[0m[38;5;249m{[0m[38;5;249m [0m[38;5;249mC[0m[38;5;249mo[0m[38;5;249mf[0m[38;5;249mf[0m[38;5;249me[0m[3
+8;5;249me[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mI[0m[38;5;249mn[0m[38;5;249ms[0m[38;5;249mt[0m[38;5;249
+ma[0m[38;5;249mg[0m[38;5;249mr[0m[38;5;249ma[0m[38;5;249mm[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mT[0m
+[38;5;249mw[0m[38;5;249mi[0m[38;5;249mt[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249m,[0m[38;5;2
+49m [0mFacebook[38;5;249m [0m[38;5;249m}[0m[38;5;249m 
+[0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m[38;5;249m"[0m[38;5;249ml[0m[3
+8;5;249mu[0m[38;5;249mc[0m[38;5;249mi[0m[38;5;249md[0m[38;5;249me[0m[38;5;249m-[0m[38;5;249mr[0m[38;5;249
+me[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249m"[0m[38;5;249m;[0m
+ [38;5;240m  Γöé[0m                                      ΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇ  
+ [38;5;240m  Γöé[0m                                          Γò░ΓöÇΓöÇΓöÇΓöÇΓöÇ Missing export
+[38;5;246mΓöÇΓöÇΓöÇΓò»[0m
+[31m
+    at aggregateBindingErrorsIntoJsError 
+(file:///C:/Users/User/.gemini/antigravity/coffee-shop/node_modules/rolldown/dist/shared/error-DL-e8-oE.mjs:48:18)
+    at unwrapBindingResult 
+(file:///C:/Users/User/.gemini/antigravity/coffee-shop/node_modules/rolldown/dist/shared/error-DL-e8-oE.mjs:18:128)
+    at #build (file:///C:/Users/User/.gemini/antigravity/coffee-shop/node_modules/rolldown/dist/shared/rolldown-build-D
+SxL8qiP.mjs:3317:34)
+    at async buildEnvironment 
+(file:///C:/Users/User/.gemini/antigravity/coffee-shop/node_modules/vite/dist/node/chunks/node.js:33018:64)
+    at async Object.build 
+(file:///C:/Users/User/.gemini/antigravity/coffee-shop/node_modules/vite/dist/node/chunks/node.js:33440:19)
+    at async Object.buildApp 
+(file:///C:/Users/User/.gemini/antigravity/coffee-shop/node_modules/vite/dist/node/chunks/node.js:33437:153)
+    at async CAC.<anonymous> 
+(file:///C:/Users/User/.gemini/antigravity/coffee-shop/node_modules/vite/dist/node/cli.js:778:3) {
+  errors: [Getter/Setter]
+}[39m
