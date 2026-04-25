@@ -25,7 +25,7 @@ const Booking = () => {
     }
     // Save to real database
     try {
-      await fetch('http://localhost:3001/api/bookings', {
+      await fetch('https://coffee-shop-production-1fb9.up.railway.app/api/bookings', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ...formData, userId: user.email })

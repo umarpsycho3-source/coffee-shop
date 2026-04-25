@@ -49,7 +49,7 @@ const CheckoutForm = () => {
 
       try {
         // Step 1: Create PaymentIntent on the backend
-        const response = await fetch('http://localhost:3001/api/create-payment-intent', {
+        const response = await fetch('https://coffee-shop-production-1fb9.up.railway.app/api/create-payment-intent', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -104,7 +104,7 @@ const CheckoutForm = () => {
         status: 'Preparing'
       };
 
-      await fetch('http://localhost:3001/api/orders', {
+      await fetch('https://coffee-shop-production-1fb9.up.railway.app/api/orders', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(newOrder)

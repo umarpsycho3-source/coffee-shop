@@ -16,12 +16,12 @@ const Profile = () => {
     } else {
       const loadProfileData = async () => {
         try {
-          const ordersRes = await fetch(`http://localhost:3001/api/orders/user/${user.email}`);
+          const ordersRes = await fetch(`https://coffee-shop-production-1fb9.up.railway.app/api/orders/user/${user.email}`);
           if (ordersRes.ok) {
             setOrders(await ordersRes.json());
           }
 
-          const bookingsRes = await fetch(`http://localhost:3001/api/bookings/user/${user.email}`);
+          const bookingsRes = await fetch(`https://coffee-shop-production-1fb9.up.railway.app/api/bookings/user/${user.email}`);
           if (bookingsRes.ok) {
             setBookings(await bookingsRes.json());
           }

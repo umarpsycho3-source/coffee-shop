@@ -21,8 +21,8 @@ const Admin = () => {
 
   const loadData = async () => {
     try {
-      const ordersRes = await fetch('http://localhost:3001/api/orders');
-      const bookingsRes = await fetch('http://localhost:3001/api/bookings');
+      const ordersRes = await fetch('https://coffee-shop-production-1fb9.up.railway.app/api/orders');
+      const bookingsRes = await fetch('https://coffee-shop-production-1fb9.up.railway.app/api/bookings');
       
       if (ordersRes.ok) {
         const storedOrders = await ordersRes.json();
@@ -40,7 +40,7 @@ const Admin = () => {
 
   const markOrderComplete = async (orderId) => {
     try {
-      await fetch(`http://localhost:3001/api/orders/${orderId}/status`, {
+      await fetch(`https://coffee-shop-production-1fb9.up.railway.app/api/orders/${orderId}/status`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ status: 'Completed' })
